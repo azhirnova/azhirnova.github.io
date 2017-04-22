@@ -1,0 +1,58 @@
+/* Logic */
+.done {
+  text-decoration: line-through;
+}
+
+/* Layout */
+body {
+  max-width: 600px;
+  margin: auto;
+}
+
+form {
+  margin: 20px 0;
+}
+
+form input {
+  border-color: #19b5fE;
+  border-radius: 4px;
+  width: 100%;
+  padding: 10px;
+}
+
+.todo-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+}
+
+.todo-item span {
+  flex: 1 1 auto;
+}
+
+.todo-item a {
+  flex: 0 0 auto;
+  padding-left: 10px;
+}
+
+/* Typography and colours */
+body {
+  background-color: #fff;
+  font-size: 16px;
+}
+
+.complete-todo {
+  color: #00b16a;
+}
+
+.complete-todo:hover {
+  color: #1e824c;
+}
+
+.remove-todo {
+  color: #d91e18;
+}
+
+.remove-todo:hover {
+  color: #c0392b;
+}
